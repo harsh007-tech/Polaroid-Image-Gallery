@@ -1,0 +1,123 @@
+.title{
+  color:white;
+  width:fit-content;
+  font-style: italic;
+  font-family:emoji;
+  font-size: xxx-large;
+  font-weight:Bold;
+  margin : 10px auto 50px auto;
+}
+
+html{
+  background-image:url('https://5.imimg.com/data5/YX/GL/UV/SELLER-64014672/plain-textured-wallpaper-1000x1000.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+figure img{
+  height:200px;
+  width: 200px;
+  margin-left:auto;
+  margin-right:auto;
+  display:flex;
+  flex-direction:column;
+   border:black 2px solid;
+}
+
+figure figcaption{
+  width:fit-content;
+  font-weight:Bold;
+  margin:4% ;
+  
+}
+
+figure{
+  background-color:red;
+  width:fit-content;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:10px;
+  margin-left:100px;
+  border:black 2px solid;
+  margin-bottom:80px;
+  box-shadow:10px 10px 60px 5px black;
+}
+
+figure:hover
+{
+  cursor:pointer;
+  transform:scale(1.5) rotate(10deg) !important;
+  transition: transform 1s;
+}
+
+.image-gallery{
+  display:flex;
+  flex-wrap:wrap;
+  margin-left:auto;
+  justify-content: center;
+  margin-right:auto;
+
+}
+
+.top{
+  display:flex;
+  flex-direction:row;
+  margin-bottom:30px;
+
+}
+
+.bottom{
+  display:flex;
+  flex-direction:row;
+
+}
+
+.top figure:nth-of-type(even) {
+  transform:rotate(-15deg);
+}
+
+.top figure:nth-of-type(odd) {
+  transform:rotate(20deg);
+}
+
+.bottom figure:nth-of-type(even) {
+  transform:rotate(-13deg);
+}
+
+.bottom figure:nth-of-type(odd) {
+  transform:rotate(+9deg);
+}
+
+.polaroid-parent{
+  margin-left:auto;
+  margin-right:auto;
+/*    border:black 2px solid; */
+}
+
+.tape{
+  width:80px;
+  height:20px;
+  background-color:yellow;
+  display:inline-block;
+ 
+}
+
+.top .odd-tape{
+  transform:rotate(320deg) translate(-30px,-16px);
+   background-color: blue;
+  } 
+
+.top .even-tape {
+  transform:rotate(45deg) translate(110px,-115px) ;
+  
+}  
+
+.bottom .odd-tape{
+  transform:rotate(320deg) translate(-30px,-16px);
+   
+  } 
+
+.bottom .even-tape {
+  transform:rotate(45deg) translate(110px,-115px) ;
+  background-color: green;
+}  
